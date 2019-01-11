@@ -1,0 +1,17 @@
+# Praktikum2Jessica
+latihan 1
+![alt text](https://github.com/KadekJ/Praktikum2Jessica/blob/master/latihan%201.jpg)
+latihan 2
+![alt text](https://github.com/KadekJ/Praktikum2Jessica/blob/master/latihan%202.jpg)
+latihan 3
+![alt text](https://github.com/KadekJ/Praktikum2Jessica/blob/master/latihan%203.jpg)
+latihan 4
+![alt text](https://github.com/KadekJ/Praktikum2Jessica/blob/master/latihan%204.jpg)
+latihan 5
+![alt text](https://github.com/KadekJ/Praktikum2Jessica/blob/master/latihan%205.jpg)
+latihan 6
+![alt text](https://github.com/KadekJ/Praktikum2Jessica/blob/master/latihan%206.jpg)
+latihan 7
+![alt text](https://github.com/KadekJ/Praktikum2Jessica/blob/master/latihan%207.jpg)
+latihan 8
+![alt text](https://github.com/KadekJ/Praktikum2Jessica/blob/master/latihan%208.jpg)
