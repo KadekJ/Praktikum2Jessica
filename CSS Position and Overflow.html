@@ -1,0 +1,69 @@
+<html>
+<style media="screen">
+.container{
+    width: 50%;
+    height: 200px;
+    overflow: auto;
+    margin-left: 0 auto;
+} /*container : digunakan untuk adanya scrollbar*/
+.static{ position: static; border: 2px solid green; }
+.relative{
+    position: relative;
+    border: 2px solid red;
+    left: 20px;  /*jarak dari posisi kiri sebesar 20px*/
+    bottom: 0; /*jarak dari posisi paling bawah sebesar 0px*/
+} 
+.absolute{ position: absolute; border: 2px solid blue; left: 2-px; bottom: 40px}
+.fixed{position: fixed; border: 2px solid black; bottom: 0; right: 0; }
+.sticky{
+    position: sticky;
+    border: 2px solid yellow;
+    top: 0;
+    left: 20px;
+    background: saddlebrown;
+    color: white;
+}
+</style>
+<div class="container">
+    <p class="sticky">
+        Ini adalah contoh dari posisi sticky
+    </p>
+
+    <p class="static">
+        <b>Ini adalah contoh dari position static</b><br>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of ty[e and scamblel it to make a type
+        specimen book. It has survived not only five centuries, but alsa the leao into
+        electronic typrsetting, remaining essentially unchanged. It was popularised industry
+        the 1960s with the release of Letraser sheets containing Lorem Ipsum passages,
+        and more recently with deskop publishing like Aldus PageMaker including version of Lorem Ipsum.
+    </p>
+
+    <p class="relative">
+        <b>Ini adalah contoh dari position relative</b><br>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of ty[e and scamblel it to make a type
+        specimen book. It has survived not only five centuries, but alsa the leao into
+        electronic typrsetting, remaining essentially unchanged. It was popularised industry
+        the 1960s with the release of Letraser sheets containing Lorem Ipsum passages,
+        and more recently with deskop publishing like Aldus PageMaker including version of Lorem Ipsum.
+    </p>
+
+    <p class="absolute">
+        <b>Ini adalah contoh dari position absolute</b><br>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of ty[e and scamblel it to make a type
+        specimen book. It has survived not only five centuries, but alsa the leao into
+        electronic typrsetting, remaining essentially unchanged. It was popularised industry
+        the 1960s with the release of Letraser sheets containing Lorem Ipsum passages,
+        and more recently with deskop publishing like Aldus PageMaker including version of Lorem Ipsum.
+    </p>
+
+    <p class="fixed">
+        Ini merupakan contoh dari position fixed
+    </p>
+</div>
+</html>
